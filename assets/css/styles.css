@@ -114,9 +114,35 @@ section {
 .hero-form button {
   color: #fce138;
   background-color: #024e76;
-  border: none;
+  border: red solid 5px;
   padding: 10px 20px;
   font-size: 16px;
+  border-radius: 120px;
 }
+
+/* Section Styling */
+
+.container {
+  border: 5px black solid;
+}
+
+#about-us, #records, #courses {
+  display: flex;
+  justify-content: center;
+}
+
+#about-us {
+  background: rgb(70, 234, 70);
+}
+
+#records {
+  background: burlywood;
+}
+
+#courses {
+  background: rgb(199, 197, 233);
+}
+
+
 
 
