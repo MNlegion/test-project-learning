@@ -11,11 +11,11 @@
   <body>
     <header>
       <h1>
-        <a href="/"> The Cubbies </a>
+        <a href="/">The Cubbies</a>
       </h1>
       <nav>
         <ul>
-          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#about">About Us</a></li>
           <li><a href="#records">Records</a></li>
           <li><a href="#courses">Courses</a></li>
           <li><a href="#shop">Shop the Merch</a></li>
@@ -23,13 +23,16 @@
       </nav>
     </header>
 
-    <section class="hero">
-      <div class="hero-form">
-        <h3>Get Started Today</h3>
-        <p>Fill out this form to meet the cubbies!</p>
-        <!-- Form element below -->
+    <!-- Hero Form Section -->
+    <section>
+      <div>
+        <h3>Meet the Cubbies</h3>
+        <p>
+          Fill out the form for a chance to link up with the Cubbies and join on
+          an epic weekend of golf.
+        </p>
         <form>
-          <label for="name">Enter full name:</label>
+          <label for="name">Please enter your name:</label>
           <input
             type="text"
             placeholder="John Doe"
@@ -37,15 +40,15 @@
             id="name"
             class="form-input"
           />
-          <label for="email">Enter email address:</label>
+          <label for="email">Please enter your email:</label>
           <input
             type="email"
-            placeholder="yourEmail@email.com"
+            placeholder="JohnDoe@gmail.com"
             name="email"
             id="email"
             class="form-input"
           />
-          <label for="phone">Enter phone number:</label>
+          <label for="phone">Please enter your phone number:</label>
           <input
             type="tel"
             placeholder="888-888-8888"
@@ -54,67 +57,22 @@
             class="form-input"
           />
           <p>
-            Are you a 15 handicap or better?
-            <input type="radio" name="trainer-confirm" id="trainer-yes" />
-            <label for="trainer-yes">Yes</label>
-            <input type="radio" name="trainer-confirm" id="trainer-no" />
-            <label for="trainer-no">No</label>
+            Do you have a registered GHIN with a handicap of 15 or better?
+            <input type="radio" name="ghin-confirm" id="ghin-yes" />
+            <label for="ghin-yes">Yes</label>
+            <input type="radio" name="ghin-confirm" id="ghin-no" />
+            <label for="ghin-no">No</label>
           </p>
           <p>
             <label for="checkbox">
-              I acknowledge that I am at least 18 years of age.
+              I acknowledge that I am at least 21 years or older.
             </label>
-            <input type="checkbox" name="ageconfirm" id="checkbox" />
+            <input type="checkbox" name="age-confirm" id="checkbox">
           </p>
-          <button type="submit">Get golfing!</button>
+          <button type="submit">Submit</button>
         </form>
       </div>
     </section>
-
-    <div class="container">
-      <section id="about-us">
-        <h2>About Us</h2>
-      </section>
-
-      <section id="records">
-        <h2>What You Do</h2>
-
-        <div>
-          <h3>Step 1: Fill Out the Form Above.</h3>
-          <p>You're already here, so why not?</p>
-        </div>
-
-        <div>
-          <h3>Step 2: Consult with One of Our Trainers.</h3>
-          <p>Are you here to build muscle, lose weight, or just feel good?</p>
-        </div>
-
-        <div>
-          <h3>Step 3: Get Running.</h3>
-          <p>
-            Hit the ground running (literally) once your trainer lays out your
-            plan.
-          </p>
-        </div>
-
-        <div>
-          <h3>Step 4: See Results.</h3>
-          <p>Bi-weekly checkins with your trainer will keep you focused</p>
-        </div>
-      </section>
-
-      <section id="courses">
-        <h2>Courses</h2>
-      </section>
-    </div>
-
-    <footer>
-      <h2>Made with Love</h2>
-      <div>
-        <a href="#">Read Our Privacy Policy</a><br />
-        &copy; 2019 The Cubbies, Inc.
-      </div>
-    </footer>
 
     <script src="./assets/js/app.js"></script>
   </body>

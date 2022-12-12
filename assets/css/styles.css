@@ -1,4 +1,4 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -69,16 +69,16 @@ section {
 }
 
 /* Hero Style Start */
-.hero {
+/* .hero {
   background-image: url("../images/test_image.jpg");
   height: 600px;
   background-size: cover;
   background-position: center;
   position: relative;
-}
+} */
 /* Hero Style End */
 
-.hero-form {
+/* .hero-form {
   border: 3px solid #024e76;
   background-color: #fce138;
   padding: 20px;
@@ -118,11 +118,11 @@ section {
   padding: 10px 20px;
   font-size: 16px;
   border-radius: 120px;
-}
+} */
 
 /* Section Styling */
 
-.container {
+/* .container {
   border: 5px black solid;
   height: 600px;
   display: flex;
@@ -157,7 +157,7 @@ section {
 
 #courses {
   background: rgb(199, 197, 233);
-}
+} */ */
 
 
 
